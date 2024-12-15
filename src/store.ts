@@ -1,3 +1,4 @@
+//Antes de comentar
 import { create } from 'zustand';
 import { devtools } from 'zustand/middleware';
 import { Product, ShoppingCart, Coupon, CouponResponseSchema } from './schemas';

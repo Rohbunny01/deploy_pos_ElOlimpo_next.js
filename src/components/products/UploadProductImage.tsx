@@ -22,7 +22,20 @@ export default function UploadProductImage({ currentImage }: { currentImage?: st
 	const { getRootProps, getInputProps, isDragActive, isDragReject, isDragAccept } =
 		useDropzone({
 			accept: {
-				'image/*': ['.jpeg', '.png', '.jpg', '.svg'],
+				'image/*': [
+					'.jpeg',
+					'.png',
+					'.jpg',
+					'.svg',
+					'.webp',
+					'.avif',
+					'.gif',
+					'.bmp',
+					'.tiff',
+					'.ico',
+					'.heic',
+					'.heif',
+				],
 				'video/*': ['.mp4', '.mov', '.avi', '.mkv'],
 			},
 			onDrop,
