@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
 			},
 			{
 				protocol: 'https',
-				hostname: 'deploy-pos-elolimpo-nestjs.onrender.com',
+				hostname: "deploy-pos-elolimpo-nestjs.onrender.com",
 			},
 		],
 	},
